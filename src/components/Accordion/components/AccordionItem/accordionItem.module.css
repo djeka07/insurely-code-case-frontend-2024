@@ -1,0 +1,43 @@
+.root {
+  display: grid;
+  padding: 8px;
+  border-bottom: 1px solid var(--grey03);
+}
+
+.name {
+  display: grid;
+  grid-template-columns: 20px 1fr auto;
+  align-items: center;
+  gap: 8px;
+}
+
+.clickable.name {
+  cursor: pointer;
+}
+
+.content {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 500ms;
+
+}
+
+.icon {
+  transition: transform 500ms;
+}
+
+.open.icon {
+  transform: rotate(45deg);
+}
+
+.content[aria-hidden="false"] {
+  grid-template-rows: 1fr;
+}
+
+.content > div {
+  overflow: hidden;
+}
+
+.description {
+  margin-top: 8px;
+}

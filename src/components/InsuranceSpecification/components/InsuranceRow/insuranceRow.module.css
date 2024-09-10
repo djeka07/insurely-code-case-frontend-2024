@@ -1,0 +1,13 @@
+.root {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 16px 0px;
+  border-bottom: 1px solid var(--grey03);
+  gap: 8px;
+}
+
+.value {
+  justify-self: end;
+  text-align: right;
+  font-weight: bold;
+}

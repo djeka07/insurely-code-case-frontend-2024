@@ -1,0 +1,35 @@
+.root {
+  width: 100%;
+  padding: 16px;
+  gap: 32px;
+  display: grid;
+}
+
+.wrapper {
+  display: grid;
+  gap: 32px;
+}
+
+.check {
+  fill: var(--green )
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link svg {
+  margin-right: 0px;
+}
+
+.header > div {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+@media (min-width: 1000px) {
+  .root {
+    padding: 32px;
+  }
+}

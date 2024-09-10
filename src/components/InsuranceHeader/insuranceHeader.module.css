@@ -1,0 +1,22 @@
+.root {
+  display: grid;
+  gap: 8px;
+  margin: 32px 0px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .root {
+    gap: 16px;
+    margin: 64px 0px;
+  }
+  .wrapper {
+    gap: 16px;
+  }
+}
